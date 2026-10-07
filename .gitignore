@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter / notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TensorFlow / Keras generated files
+*.h5
+
+# Temporary files
+*.tmp
+*.log
+
+# Python environment files
+.env
+
+# Hugging Face / dataset cache
+.cache/
