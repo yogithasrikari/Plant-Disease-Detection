@@ -92,3 +92,8 @@ Generated evaluation files:
 ```text
 models/classification_report.txt
 models/confusion_matrix.png
+---
+
+## 🖥️ Application Demo
+
+![Plant Disease Detection Streamlit App](screenshots/plant-disease-app.png)
