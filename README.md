@@ -50,7 +50,7 @@ The project uses the **PlantVillage** dataset through Hugging Face.
 - Training images: **43,356**
 - Test images: **10,948**
 - Image format: RGB
-- Image size: 256 × 256
+- Original image size: 256 × 256
 
 The test set was kept separate and used for final model evaluation.
 
@@ -93,6 +93,14 @@ Generated evaluation files:
 models/classification_report.txt
 models/confusion_matrix.png
 ```
+
+---
+
+## 🌐 Live Demo
+
+🚀 **Try the deployed application:**
+
+[Plant Disease Detection - Live Demo](https://plant-disease-detection-ncmht9q7wvxwh3tjddjqjka.streamlit.app)
 
 ---
 
@@ -163,7 +171,7 @@ venv\Scripts\activate
 Install the required packages:
 
 ```bash
-pip install tensorflow numpy pandas matplotlib scikit-learn pillow opencv-python streamlit datasets
+pip install -r requirements.txt
 ```
 
 ---
@@ -175,6 +183,7 @@ Plant-Disease-Detection/
 │
 ├── app.py
 ├── README.md
+├── requirements.txt
 ├── .gitignore
 │
 ├── screenshots/
